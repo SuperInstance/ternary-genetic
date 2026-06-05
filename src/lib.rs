@@ -160,7 +160,7 @@ impl Population {
         let mut state = seed;
         let individuals = (0..size)
             .map(|i| {
-                let chr_seed = lcg_next(&mut state) ^ (i as u64 * 0x9e3779b97f4a7c15);
+                let chr_seed = lcg_next(&mut state) ^ (i as u64).wrapping_mul(0x9e3779b97f4a7c15);
                 let chromosome = TernaryChromosome::random(length, chr_seed);
                 Individual::new(chromosome, 0.0)
             })
