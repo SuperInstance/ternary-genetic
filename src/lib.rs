@@ -1,6 +1,10 @@
 #![allow(dead_code)]
 
-/// A trit is the fundamental unit of a ternary genome: -1, 0, or +1.
+/// Canonical ternary type — re-exported from [ternary-types](https://github.com/SuperInstance/ternary-types).
+pub use ternary_types::Ternary;
+
+/// Deprecated: use [`Ternary`] instead.
+#[deprecated(since = "0.2.0", note = "use ternary_types::Ternary instead")]
 pub type Trit = i8;
 
 // ---------------------------------------------------------------------------

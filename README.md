@@ -1,4 +1,6 @@
 # ternary-genetic
+[![Migration: Binary → Ternary](https://img.shields.io/badge/Migration-Binary%E2%86%92Ternary-blueviolet)](https://github.com/SuperInstance/ternary-types)
+
 
 > Evolutionary computation with ternary genomes: `-1`, `0`, `+1`.
 
