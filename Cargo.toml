@@ -1,4 +1,6 @@
 [package]
+description = "ternary-genetic - SuperInstance ecosystem crate"
+repository = "https://github.com/SuperInstance/ternary-genetic"
 name = "ternary-genetic"
 version = "0.1.0"
 edition = "2021"
